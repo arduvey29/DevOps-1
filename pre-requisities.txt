@@ -1,0 +1,21 @@
+Docker- building and running containers
+python- creating app
+flask- making apis
+pytest- testing python application
+Git- SCM
+Jenkins- Automation
+
+CI pipeline- Continous Integration pipeline
+CD pipleline- Continous Deployment/Delivery pipeline
+
+In modern times we use CI/CD model for SDLC
+
+Stages of CI/CD SDLC:
+    1. Idea/ Use containers
+    2. Development
+    3. SCM(Github)
+    4. testing
+    5. Dockerfile building
+    6. deployement
+
+4, 5, 6 are operation tasks nd to automate them we use Jenkins
