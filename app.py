@@ -10,4 +10,6 @@ def info():
 def phone():
     return "This is the phone page."
 
-app.run(host='0.0.0.0', debug=True)
+if __name__ == '__main__':
+    # Run the Flask application
+    app.run(host='0.0.0.0', port=5000, debug=True, use_reloader=False)
